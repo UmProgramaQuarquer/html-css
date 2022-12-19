@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header#h-principal {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3BD27F, #1A5C38);
+    color: white;
+}
+
+/*Parte do header*/
+header#h-principal > h1 {
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.506);
+}
+
+header#h-principal > p {
+    width: 400px;
+    margin: 50px auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.506);
+}
+
+header#h-principal > nav {
+    text-align: left;
+}
+
+header#h-principal > nav > span {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/*Parte do main*/
+main {
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+main > h2 {
+    font-family: Idroid, 'sans-serif';
+    color: #286644;
+}
+
+main > h3 {
+    font-family: Idroid, 'sans-serif';
+    color: #286644;
+    background-image: linear-gradient(to right, #C5EBD6, #FFFFFF);
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main > p > span {
+    color:#286644;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:#286644;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' 🔗';
+}
+
+img#bugdroid {
+    display: block;
+    margin: 0px auto;
+}
+
+div#video {
+    background-color: #1A5C38;
+    height: 480px;
+    outline: 20px solid #1A5C38;
+    margin: 40px 0px;
+}
+
+div > iframe{
+    display: block;
+    margin: 0px auto;
+}
+
+main > section {
+    background-color: #C5EBD6;
+    width: 780px;
+    height: 500px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+main > section > header#h-extra {
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main > section > div {
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+/*Parte do footer*/
+footer {
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    font-style: italic;
+    padding: 3px;
+    margin-top: 50px;
+}

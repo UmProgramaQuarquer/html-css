@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="300px" poster="imagens/bozo.jfif" controls>
+        <source src="midias/let me take a pic.mp4" type="video/mp4">
+        <source src="midias/Let Me Take A Pic.mkv" type="video/mp4">
+        <source src="midias/Let Me Take A Pic.webm" type="video/webm">
+        <source src="midias/let me take a pic.ogv" type="video/ogg">
+    </video> <br>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="500px" height="281px" src="https://www.youtube.com/embed/SLC4P0qHUEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/257399106?h=b4f1975b25&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

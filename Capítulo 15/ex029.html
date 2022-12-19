@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        /*
+        Pseudo-classe é demarcada por : 
+        Elas seriam tipo os event listener do JS, que definem uma ação condicionada por um evento, como por exemplo no hover, que limita o evento apenas para quando o mouse estiver em cima da área do texto.
+        */
+
+        div:hover { 
+            color: red;
+        }
+
+        div:hover > p {
+            font-weight: bold;
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo.</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

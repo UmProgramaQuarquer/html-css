@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(170, 250, 223);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(1, 92, 61);
+    text-align: center;
+}
+
+/*
+Em HTML, para se referir à/ao...
+id = [nome da tag]#[nome do id]
+classe = [nome da tag].[nome da classe]
+
+ID é único, só cabe em um elemento, já a classe pode ser usada em vários elementos
+*/
+
+h2#html {
+    color: #af491e;
+    background-color: #fc7e47;
+}
+
+h2#css {
+    color: #1e4ab1;
+    background-color: #4b81ff;
+}
+
+.basico {
+    color: rgb(68, 132, 102);
+}
+
+.intermediario {
+    color: rgb(131, 132, 68)
+}
+
+.avançado {
+    color: rgb(132, 68, 68)
+}
