@@ -13,7 +13,10 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.js" autocomplete="off">
+    <!--Método...
+    GET: é o método padrão, que não esconde bem os dados (máximo de 3000 Bytes [3000 caracteres em textos]);
+    POST: o contrário do GET, esconde os dados, mas não totalmente, ainda é possível acessá-los.-->
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
