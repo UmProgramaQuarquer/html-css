@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*Mobile First*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -71,4 +73,24 @@ article > p {
     text-align: justify;
     text-indent: 10px;
     margin-bottom: 20px;
+}
+
+/*Outras mídias*/
+
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
 }
